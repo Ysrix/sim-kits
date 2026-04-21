@@ -1,0 +1,10 @@
+{
+  "doc_type": "Personalausweis",
+  "holder_name": "Sabine Weber",
+  "dob": "1984-06-12",
+  "id_number": "L01X00T47",
+  "issued_by": "Stadt München",
+  "issue_date": "2020-03-01",
+  "expiry_date": "2030-03-01",
+  "validation_confidence": 0.98
+}

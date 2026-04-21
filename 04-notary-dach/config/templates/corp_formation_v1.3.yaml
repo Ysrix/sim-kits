@@ -1,0 +1,19 @@
+template_id: corp_formation_v1.3
+name: "GmbH-Gründung"
+language: DE
+required_fields:
+  - company_name
+  - registered_seat
+  - business_purpose
+  - share_capital_eur
+  - managing_director_name
+  - managing_director_id_type
+  - shareholder_breakdown  # list of {name, id_type, share_pct, capital_contribution_eur}
+  - notary_office
+trust_entry:
+  account: "Anderkonto Partner A"
+  threshold_human_review_eur: 50000
+human_judgment_fields:
+  - non_standard_articles
+  - in_kind_contributions
+  - class_rights

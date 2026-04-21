@@ -1,0 +1,21 @@
+{
+  "matter_id": "m_2026_0042",
+  "matter_type_requested": "Immobilienkaufvertrag",
+  "language": "DE",
+  "submitted_at": "2026-04-17T09:00:00Z",
+  "seller_full_name": "Hans-Jürgen Müller",
+  "seller_address": "Maximilianstraße 14, 80539 München, DE",
+  "seller_id_type": "Personalausweis",
+  "buyer_full_name": "Sabine Weber",
+  "buyer_address": "Leopoldstraße 88, 80802 München, DE",
+  "buyer_id_type": "Personalausweis",
+  "property_grundbuch_blatt": "12345",
+  "property_flurstueck": "Flst. 678/9",
+  "property_address": "Residenzstraße 22, 80333 München, DE",
+  "purchase_price_eur": 845000,
+  "financing_method": "Kaufpreis über Anderkonto, 30% Eigenkapital, 70% Bankdarlehen Kreissparkasse München",
+  "trust_amount_eur": 845000,
+  "completion_date": "2026-06-15",
+  "expected_outcome": "complete_with_flag",
+  "expected_reason": "Process end-to-end (classify, validate ID, sanctions clear, populate template, stage trust). Flag trust entry for human review — €845,000 exceeds €50,000 threshold. Agent does NOT halt; notary reviews trust staging before posting."
+}

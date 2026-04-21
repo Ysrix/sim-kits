@@ -1,0 +1,24 @@
+accepted_id_types:
+  - name: Personalausweis
+    description: German national identity card
+    valid_for_notary: true
+    requires_secondary: false
+    notes: Standard ID for all German nationals. eID chip optional but preferred.
+
+  - name: Reisepass
+    description: German passport
+    valid_for_notary: true
+    requires_secondary: false
+    notes: Accepted for all notarial acts. Check expiry carefully — expired passports are invalid.
+
+  - name: eID
+    description: Electronic identity (online ID function of Personalausweis)
+    valid_for_notary: true
+    requires_secondary: false
+    notes: Valid for remote notarisation (Onlinebeurkundung) under BNotO §16a-g. Requires certified eID reader.
+
+  - name: Aufenthaltstitel
+    description: Residence permit for non-EU nationals
+    valid_for_notary: true
+    requires_secondary: true
+    notes: Must be accompanied by a valid passport from country of origin. Verify permit type covers intended legal act.

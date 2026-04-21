@@ -1,0 +1,10 @@
+{
+  "client_id": "delta_retail",
+  "period": "2026-04",
+  "totals": {
+    "pipeline_created_usd": 0,
+    "deals_won": 410,
+    "revenue_attributed_usd": 120000
+  },
+  "notes": "B2C retail — uses deals_won + revenue rather than pipeline. Two-channel media mix (Google + Meta)."
+}

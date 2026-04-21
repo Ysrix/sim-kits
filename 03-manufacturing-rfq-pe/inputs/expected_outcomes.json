@@ -1,0 +1,53 @@
+{
+  "description": "Expected outcomes for 10 RFQs across 2 portcos",
+  "outcomes": {
+    "rfq_001": {
+      "expected_outcome": "auto_draft",
+      "notes": "Known tier_2 customer, single standard catalog item, within auto-draft threshold"
+    },
+    "rfq_002": {
+      "expected_outcome": "auto_draft",
+      "notes": "Known tier_1 customer, standard catalog items (gaskets + bolts), within threshold"
+    },
+    "rfq_003": {
+      "expected_outcome": "auto_draft",
+      "notes": "Known tier_3 customer, single standard catalog item, small order"
+    },
+    "rfq_004": {
+      "expected_outcome": "approval_route",
+      "expected_reason": "Above sales_mgr_required_above_usd threshold ($10K). Ball valves 4in ($342 x 40 = $13,680) + 2in ($129 x 60 = $7,740) = ~$21K+"
+    },
+    "rfq_005": {
+      "expected_outcome": "flag_human",
+      "expected_reason": "Non-standard spec (Hastelloy C-276 custom machined housing). No catalog match. Must flag for engineering review."
+    },
+    "rfq_006": {
+      "expected_outcome": "flag_human",
+      "expected_reason": "New customer (NewWave Refining LLC) — not in customers.csv, no tier on file. Must flag for sales review."
+    },
+    "rfq_007": {
+      "expected_outcome": "auto_draft",
+      "notes": "Known tier_2 customer, standard fittings (elbows + tees), within auto-draft threshold"
+    },
+    "rfq_008": {
+      "expected_outcome": "auto_draft",
+      "notes": "Known tier_1 customer, standard catalog items (gate valve + CS flanges), within auto-draft threshold"
+    },
+    "rfq_009": {
+      "expected_outcome": "auto_draft",
+      "notes": "Portco 002 — known tier_2 customer, standard hydraulic items, within portco_002 auto-draft threshold ($5K)"
+    },
+    "rfq_010": {
+      "expected_outcome": "approval_route",
+      "expected_reason": "Above portco_002 sales_mgr_required_above_usd threshold ($5K). Gear pumps ($1,020 x 8 = $8,160) + cylinders ($520 x 12 = $6,240) = ~$14K+"
+    }
+  },
+  "summary": {
+    "total_rfqs": 10,
+    "auto_draft": 6,
+    "approval_route": 2,
+    "flag_human": 2,
+    "portco_001": 8,
+    "portco_002": 2
+  }
+}

@@ -1,0 +1,18 @@
+client_id: beta_saas
+client_name: "Beta SaaS Co"
+period: "2026-04"
+kpis:
+  - name: CAC
+    formula: "spend / new_customers"
+    target: 380
+    anomaly_threshold_pct: 0.20
+  - name: "pipeline_created_usd"
+    source: crm
+    target: 450000
+    anomaly_threshold_pct: 0.25
+  - name: spend
+    anomaly_threshold_pct: 0.30
+channels:
+  - google_ads
+  - linkedin
+template: "template_standard_v1.md"

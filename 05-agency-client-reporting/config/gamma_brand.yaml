@@ -1,0 +1,14 @@
+client_id: gamma_brand
+client_name: "Gamma Brand"
+period: "2026-04"
+kpis:
+  - name: ROAS
+    formula: "revenue / spend"
+    target: 4.0
+    anomaly_threshold_pct: 0.15
+  - name: spend
+    anomaly_threshold_pct: 0.25
+channels:
+  - google_ads
+  - meta
+template: "template_standard_v1.md"

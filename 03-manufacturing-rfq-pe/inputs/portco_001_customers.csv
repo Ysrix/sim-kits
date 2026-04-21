@@ -1,0 +1,6 @@
+customer,tier,status,credit_limit,notes
+Acme Industries,tier_2,active,50000,"Steady oil+gas, pays 30 days"
+Continental Refining,tier_1,active,250000,"Strategic, large-volume, negotiated master rates"
+Gulf Coast Pipe & Supply,tier_3,active,20000,"Distributor, thin margins"
+Brookstone Engineering,tier_2,active,75000,"EPC contractor, project-driven"
+Pemex Services USA,tier_1,active,150000,"Upstream services"

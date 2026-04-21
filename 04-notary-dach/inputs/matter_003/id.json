@@ -1,0 +1,10 @@
+{
+  "doc_type": "Reisepass",
+  "holder_name": "Ivan Petrov Volkov",
+  "dob": "1971-03-14",
+  "id_number": "P000001234",
+  "issued_by": "Russian Federation",
+  "issue_date": "2019-08-10",
+  "expiry_date": "2029-08-10",
+  "validation_confidence": 0.96
+}

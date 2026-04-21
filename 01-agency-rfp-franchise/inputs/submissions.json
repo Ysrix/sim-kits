@@ -1,0 +1,120 @@
+[
+  {
+    "id": "sub_001",
+    "franchisee_id": "fr_0042",
+    "location": "Austin, TX",
+    "phone": "512-555-0142",
+    "spend_usd": 2500,
+    "platform": "Meta",
+    "ad_copy": "Stop by our Austin location this weekend! Brand red hoodies 15% off through Sunday Nov 30. 512-555-0142.",
+    "image_description": "Hero product shot of brand red hoodie on white background, NationalBrand logo top-left with proper clear space, pre-approved model_003 wearing the hoodie.",
+    "expected_outcome": "approve"
+  },
+  {
+    "id": "sub_002",
+    "franchisee_id": "fr_0118",
+    "location": "Miami, FL",
+    "phone": "305-555-0188",
+    "spend_usd": 1800,
+    "platform": "Google",
+    "ad_copy": "NationalBrand Miami — best prices in town!",
+    "image_description": "Street shot with NationalBrand logo and a visible Nike swoosh on model's shoes.",
+    "expected_outcome": "reject",
+    "expected_violations": ["brand.imagery.competitors"]
+  },
+  {
+    "id": "sub_003",
+    "franchisee_id": "fr_0077",
+    "location": "Denver, CO",
+    "phone": "303-555-0177",
+    "spend_usd": 3200,
+    "platform": "Meta",
+    "ad_copy": "Our new hoodie is scientifically proven to reduce back pain by 40%.",
+    "image_description": "Product shot, proper branding.",
+    "expected_outcome": "reject",
+    "expected_violations": ["coop.claims.health"]
+  },
+  {
+    "id": "sub_004",
+    "franchisee_id": "fr_0203",
+    "location": "Seattle, WA",
+    "phone": "206-555-0203",
+    "spend_usd": 15000,
+    "platform": "Meta",
+    "ad_copy": "Grand reopening, flagship Seattle store. Doors open Saturday.",
+    "image_description": "Storefront shot with proper logo usage.",
+    "expected_outcome": "reject",
+    "expected_violations": ["coop.local.spend_cap"]
+  },
+  {
+    "id": "sub_005",
+    "franchisee_id": "fr_0091",
+    "location": "Portland, OR",
+    "phone": "503-555-0091",
+    "spend_usd": 900,
+    "platform": "Meta",
+    "ad_copy": "New arrivals at our Portland store. 503-555-0091.",
+    "image_description": "Product flat-lay, NationalSans headline, NationalSerif body, pre-approved model_001.",
+    "expected_outcome": "approve"
+  },
+  {
+    "id": "sub_006",
+    "franchisee_id": "fr_0164",
+    "location": "Phoenix, AZ",
+    "phone": "602-555-0164",
+    "spend_usd": 2100,
+    "platform": "TikTok",
+    "ad_copy": "Phoenix — come see the new collection this weekend.",
+    "image_description": "Product shot, proper branding.",
+    "expected_outcome": "needs_edit",
+    "expected_violations": ["coop.placement.platform"]
+  },
+  {
+    "id": "sub_007",
+    "franchisee_id": "fr_0033",
+    "location": "Boston, MA",
+    "phone": "617-555-0033",
+    "spend_usd": 1100,
+    "platform": "Google",
+    "ad_copy": "Damn good deals this weekend — Boston store only.",
+    "image_description": "Proper branding, no faces.",
+    "expected_outcome": "reject",
+    "expected_violations": ["brand.tone.language"]
+  },
+  {
+    "id": "sub_008",
+    "franchisee_id": "fr_0121",
+    "location": "Chicago, IL",
+    "phone": "312-555-0121",
+    "spend_usd": 4200,
+    "platform": "Meta",
+    "ad_copy": "Limited time offer — save 20%. Chicago store, 312-555-0121.",
+    "image_description": "Proper branding. No end date for the limited-time claim.",
+    "expected_outcome": "needs_edit",
+    "expected_violations": ["coop.claims.limited_time"]
+  },
+  {
+    "id": "sub_009",
+    "franchisee_id": "fr_0055",
+    "location": "Nashville, TN",
+    "phone": "615-555-0055",
+    "spend_usd": 2800,
+    "platform": "Meta",
+    "ad_copy": "Nashville store — new arrivals this week. 615-555-0055.",
+    "image_description": "Unknown model (not on pre-approved list), otherwise proper branding.",
+    "expected_outcome": "reject",
+    "expected_violations": ["brand.imagery.faces"]
+  },
+  {
+    "id": "sub_010",
+    "franchisee_id": "fr_0199",
+    "location": "San Diego, CA",
+    "phone": "619-555-0199",
+    "spend_usd": 1600,
+    "platform": "Meta",
+    "ad_copy": "San Diego — come see us. 619-555-0199.",
+    "image_description": "Artistic shot, hoodie prominent but logo slightly cropped on right edge. Borderline clear-space violation.",
+    "expected_outcome": "needs_edit",
+    "expected_violations": ["brand.logo.clear_space"]
+  }
+]

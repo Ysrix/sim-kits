@@ -1,0 +1,17 @@
+{
+  "client_id": "beta_saas",
+  "channel": "linkedin",
+  "period": "2026-04",
+  "totals": {
+    "spend": 18000,
+    "new_customers": 22,
+    "impressions": 420000,
+    "clicks": 3200
+  },
+  "days": 30,
+  "note": "CPMs up ~28% this period per LinkedIn benchmark in B2B SaaS category",
+  "campaigns": [
+    {"name": "ABM - Fortune 1000", "spend": 12000, "new_customers": 14},
+    {"name": "Content sponsorship", "spend": 6000, "new_customers": 8}
+  ]
+}

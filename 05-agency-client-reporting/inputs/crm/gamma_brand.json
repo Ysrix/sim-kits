@@ -1,0 +1,10 @@
+{
+  "client_id": "gamma_brand",
+  "period": "2026-04",
+  "totals": {
+    "pipeline_created_usd": 0,
+    "deals_won": 410,
+    "revenue_attributed_usd": 142000
+  },
+  "notes": "B2C brand — uses deals_won + revenue rather than pipeline. Smaller media mix than Acme (Google + Meta only)."
+}

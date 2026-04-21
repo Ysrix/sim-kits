@@ -1,0 +1,4 @@
+customer,tier,status,credit_limit,notes
+Heartland Ag Services,tier_2,active,40000,"Ag equipment repair"
+Midwest Mining Corp,tier_1,active,120000,"Large account, equipment fleet"
+Prairie Tractor & Implement,tier_3,active,15000,"Small dealer"

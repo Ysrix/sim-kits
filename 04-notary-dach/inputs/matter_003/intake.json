@@ -1,0 +1,21 @@
+{
+  "matter_id": "m_2026_0044",
+  "matter_type_requested": "Immobilienkaufvertrag",
+  "language": "DE",
+  "submitted_at": "2026-04-17T11:15:00Z",
+  "seller_full_name": "Anna Schneider",
+  "seller_address": "Bismarckstraße 4, 10625 Berlin, DE",
+  "seller_id_type": "Personalausweis",
+  "buyer_full_name": "Ivan Petrov Volkov",
+  "buyer_address": "Kurfürstendamm 220, 10719 Berlin, DE",
+  "buyer_id_type": "Reisepass",
+  "property_grundbuch_blatt": "55443",
+  "property_flurstueck": "Flst. 123/4",
+  "property_address": "Bismarckstraße 4, 10625 Berlin, DE",
+  "purchase_price_eur": 1200000,
+  "financing_method": "Kaufpreis vollständig Eigenkapital",
+  "trust_amount_eur": 1200000,
+  "completion_date": "2026-05-30",
+  "expected_outcome": "halt",
+  "expected_reason": "Buyer matches sanctions list entry"
+}

@@ -1,0 +1,13 @@
+{
+  "client_id": "beta_saas",
+  "period": "2026-04",
+  "totals": {
+    "pipeline_created_usd": 420000,
+    "deals_won": 12,
+    "revenue_attributed_usd": 186000
+  },
+  "deals_by_source": [
+    {"source": "google_ads", "pipeline": 260000},
+    {"source": "linkedin", "pipeline": 160000}
+  ]
+}

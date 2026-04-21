@@ -1,0 +1,18 @@
+template_id: inheritance_v1.0
+name: "Erbauseinandersetzung / Testamentseröffnung"
+language: DE
+required_fields:
+  - deceased_full_name
+  - deceased_date_of_death
+  - deceased_last_address
+  - will_type  # holographic, notarial, none
+  - heirs  # list of {name, relation, id_type}
+  - estate_summary_eur
+  - known_liabilities_eur
+trust_entry:
+  account: "Anderkonto Partner A"
+  threshold_human_review_eur: 50000
+human_judgment_fields:
+  - will_interpretation
+  - contested_heirship
+  - foreign_assets

@@ -1,0 +1,19 @@
+{
+  "client_id": "gamma_brand",
+  "channel": "meta",
+  "period": "2026-04",
+  "totals": {
+    "spend": 8200,
+    "revenue": 29500,
+    "new_customers": 98,
+    "impressions": 1600000,
+    "clicks": 18000
+  },
+  "days": 25,
+  "days_missing": [14, 15, 16, 17, 18],
+  "note": "Data gap: days 14–18 missing from Meta reporting API. Totals reflect only available days.",
+  "campaigns": [
+    {"name": "Advantage+ Shopping", "spend": 5200, "revenue": 19500},
+    {"name": "Prospecting - Video", "spend": 3000, "revenue": 10000}
+  ]
+}

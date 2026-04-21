@@ -1,0 +1,11 @@
+{
+  "HOSE-HYD-12-50": {"on_hand": 80, "on_order": 0, "lead_time_days": 5},
+  "HOSE-HYD-34-50": {"on_hand": 45, "on_order": 0, "lead_time_days": 5},
+  "FIT-JIC-8": {"on_hand": 600, "on_order": 0, "lead_time_days": 3},
+  "FIT-JIC-12": {"on_hand": 400, "on_order": 0, "lead_time_days": 3},
+  "PUMP-GEAR-10": {"on_hand": 12, "on_order": 20, "lead_time_days": 14},
+  "PUMP-GEAR-25": {"on_hand": 4, "on_order": 10, "lead_time_days": 21},
+  "CYL-HYD-2-8": {"on_hand": 28, "on_order": 0, "lead_time_days": 7},
+  "CYL-HYD-3-10": {"on_hand": 14, "on_order": 20, "lead_time_days": 14},
+  "FLT-HYD-10MIC": {"on_hand": 240, "on_order": 0, "lead_time_days": 3}
+}

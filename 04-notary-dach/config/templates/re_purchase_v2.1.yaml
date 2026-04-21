@@ -1,0 +1,24 @@
+template_id: re_purchase_v2.1
+name: "Immobilienkaufvertrag (Grundstückskauf)"
+language: DE
+required_fields:
+  - seller_full_name
+  - seller_address
+  - seller_id_type
+  - buyer_full_name
+  - buyer_address
+  - buyer_id_type
+  - property_grundbuch_blatt
+  - property_flurstueck
+  - property_address
+  - purchase_price_eur
+  - financing_method
+  - trust_amount_eur
+  - completion_date
+trust_entry:
+  account: "Anderkonto Partner A"
+  threshold_human_review_eur: 50000
+human_judgment_fields:
+  - financing_contingencies
+  - easement_notes
+  - transfer_tax_allocation

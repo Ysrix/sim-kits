@@ -1,0 +1,9 @@
+{
+  "source": "MOCK - not a real sanctions list - demo only",
+  "version": "2026-04-01",
+  "entries": [
+    {"name": "Ivan Petrov Volkov", "dob": "1971-03-14", "list": "MOCK-EU-CONSOL"},
+    {"name": "Aleksandr Mikhailovich Sidorov", "dob": "1968-11-02", "list": "MOCK-EU-CONSOL"},
+    {"name": "Rashid Al-Khatib", "dob": "1980-07-22", "list": "MOCK-UN-1267"}
+  ]
+}

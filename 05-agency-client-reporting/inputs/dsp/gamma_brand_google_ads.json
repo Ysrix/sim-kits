@@ -1,0 +1,13 @@
+{
+  "client_id": "gamma_brand",
+  "channel": "google_ads",
+  "period": "2026-04",
+  "totals": {
+    "spend": 22000,
+    "revenue": 86000,
+    "new_customers": 180,
+    "impressions": 1200000,
+    "clicks": 24000
+  },
+  "days": 30
+}

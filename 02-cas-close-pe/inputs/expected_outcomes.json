@@ -1,0 +1,17 @@
+{
+  "inv_p1_001": {"expected_gl": "6200", "expected_action": "auto_approve", "notes": "Known vendor, small, routine"},
+  "inv_p1_002": {"expected_gl": "6500", "expected_action": "route.controller", "notes": "Known vendor, mid-range"},
+  "inv_p1_003": {"expected_gl": "6400", "expected_action": "route.controller", "notes": "Known vendor, mid-range"},
+  "inv_p1_004": {"expected_gl": "6100", "expected_action": "route.cfo", "notes": "Known vendor, above $10K"},
+  "inv_p1_005": {"expected_gl": null, "expected_action": "flag.human_review", "notes": "NEW VENDOR — never seen before, must flag"},
+  "inv_p1_006": {"expected_gl": "6900", "expected_action": "auto_approve", "notes": "Known vendor, small"},
+  "inv_p1_007": {"expected_gl": "6300", "expected_action": "auto_approve", "notes": "Known vendor, small"},
+  "inv_p1_008": {"expected_gl": "6800", "expected_action": "route.controller", "notes": "Known vendor, mid-range"},
+  "inv_p1_009": {"expected_gl": "6200", "expected_action": "auto_approve", "notes": "Known vendor, small"},
+  "inv_p1_010": {"expected_gl": null, "expected_action": "flag.human_review", "notes": "NEW VENDOR + large amount — must flag, do not route to CFO without review"},
+  "inv_p2_001": {"expected_gl": "60-200", "expected_action": "route.ops_manager", "notes": "Known vendor, mid-range (portco 2 thresholds differ)"},
+  "inv_p2_002": {"expected_gl": "60-400", "expected_action": "route.ops_manager", "notes": "Known vendor, mid-range"},
+  "inv_p2_003": {"expected_gl": "60-500", "expected_action": "route.cfo", "notes": "Known vendor, above $5K threshold"},
+  "inv_p2_004": {"expected_gl": null, "expected_action": "flag.human_review", "notes": "NEW VENDOR — must flag"},
+  "inv_p2_005": {"expected_gl": "60-900", "expected_action": "auto_approve", "notes": "Known vendor, small"}
+}

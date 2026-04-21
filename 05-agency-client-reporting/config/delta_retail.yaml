@@ -1,0 +1,18 @@
+client_id: delta_retail
+client_name: "Delta Retail"
+period: "2026-04"
+kpis:
+  - name: ROAS
+    formula: "revenue / spend"
+    target: 3.2
+    anomaly_threshold_pct: 0.15
+  - name: CAC
+    formula: "spend / new_customers"
+    target: 85
+    anomaly_threshold_pct: 0.20
+  - name: spend
+    anomaly_threshold_pct: 0.30
+channels:
+  - google_ads
+  - meta
+template: "template_standard_v1.md"

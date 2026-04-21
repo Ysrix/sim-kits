@@ -1,0 +1,68 @@
+{
+  "description": "Expected scoring outcomes for 8 content submissions across 2 brands",
+  "outcomes": [
+    {
+      "submission_id": "sub_001",
+      "brand_id": "outdoor_co",
+      "expected_decision": "approve",
+      "expected_score_range": [0.85, 1.0],
+      "notes": "Clean outdoor content, on-brand, proper disclosure, no flags"
+    },
+    {
+      "submission_id": "sub_002",
+      "brand_id": "outdoor_co",
+      "expected_decision": "approve",
+      "expected_score_range": [0.85, 1.0],
+      "notes": "Family camping, clean, on-brand"
+    },
+    {
+      "submission_id": "sub_003",
+      "brand_id": "outdoor_co",
+      "expected_decision": "approve",
+      "expected_score_range": [0.85, 1.0],
+      "notes": "Solo backpacking content, adventure aligned, clean"
+    },
+    {
+      "submission_id": "sub_004",
+      "brand_id": "outdoor_co",
+      "expected_decision": "flag_for_review",
+      "expected_score_range": [0.55, 0.75],
+      "notes": "Alcohol visible (craft beer cans in image). R002 triggers flag_for_review."
+    },
+    {
+      "submission_id": "sub_005",
+      "brand_id": "outdoor_co",
+      "expected_decision": "flag_for_review",
+      "expected_score_range": [0.55, 0.80],
+      "notes": "Content clean but audience brand_affinity_pct 38% < 40% min. R004 triggers."
+    },
+    {
+      "submission_id": "sub_006",
+      "brand_id": "outdoor_co",
+      "expected_decision": "reject",
+      "expected_score_range": [0.0, 0.0],
+      "notes": "Competitor (RivalGear) in text + image. R001 instant_reject."
+    },
+    {
+      "submission_id": "sub_007",
+      "brand_id": "outdoor_co",
+      "expected_decision": "flag_for_review",
+      "expected_score_range": [0.70, 0.88],
+      "notes": "Content is clean (~0.88) but creator has 1 violation in 180-day window. History override."
+    },
+    {
+      "submission_id": "sub_008",
+      "brand_id": "health_co",
+      "expected_decision": "approve",
+      "expected_score_range": [0.90, 1.0],
+      "notes": "Brand swap test. HealthCo permits alcohol (H006). Wine glasses in background OK. No health claims. Clean. Score range starts at 0.90 to match HealthCo min_approve_score threshold."
+    }
+  ],
+  "summary": {
+    "total_submissions": 8,
+    "expected_approve": 4,
+    "expected_flag": 3,
+    "expected_reject": 1,
+    "brands_tested": 2
+  }
+}

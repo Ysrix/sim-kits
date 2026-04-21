@@ -1,0 +1,22 @@
+{
+  "description": "Expected matching and break outcomes for 10 trade pairs",
+  "outcomes": [
+    {"fo_id": "FO-20260415-001", "bo_id": "BO-20260415-001", "result": "matched", "notes": "Exact match on all fields"},
+    {"fo_id": "FO-20260415-002", "bo_id": "BO-20260415-002", "result": "matched", "notes": "Counterparty alias: GOLDMAN → GOLDMAN SACHS → GOLDMAN_SACHS"},
+    {"fo_id": "FO-20260415-003", "bo_id": "BO-20260415-003", "result": "matched", "notes": "Counterparty alias: CITI → CITIGROUP"},
+    {"fo_id": "FO-20260415-004", "bo_id": "BO-20260415-004", "result": "matched", "notes": "Counterparty alias: BARCLAYS → BARCLAYS CAPITAL → BARCLAYS. Govie tolerance config."},
+    {"fo_id": "FO-20260415-005", "bo_id": "BO-20260415-005", "result": "price_break", "notes": "Price diff 25 bps > 12.5 bps tolerance. $4M notional — below escalation threshold."},
+    {"fo_id": "FO-20260415-006", "bo_id": "BO-20260415-006", "result": "matched", "notes": "Price diff 7.5 bps — within 12.5 bps tolerance. Counterparty alias: MS → MORGAN STANLEY."},
+    {"fo_id": "FO-20260415-007", "bo_id": null, "result": "unmatched_fo", "notes": "No back-office record. $8M notional — ESCALATION REQUIRED."},
+    {"fo_id": "FO-20260415-008", "bo_id": "BO-20260415-008", "result": "settle_date_mismatch", "notes": "FO settle 2026-04-18 vs. BO 2026-04-17. Counterparty alias: BNP → BNP PARIBAS."},
+    {"fo_id": "FO-20260415-009", "bo_id": "BO-20260415-009", "result": "matched", "notes": "Counterparty alias resolves JPMC → JP MORGAN CHASE. All other fields match exactly."},
+    {"fo_id": "FO-20260415-010", "bo_id": "BO-20260415-010", "result": "notional_break", "notes": "Notional diff $12K (0.2%) > 0.1% tolerance. $6M+ = ESCALATION REQUIRED. Counterparty alias: GOLDMAN → GOLDMAN SACHS & CO."}
+  ],
+  "summary": {
+    "total_pairs": 10,
+    "clean_matches": 5,
+    "breaks": 4,
+    "unmatched": 1,
+    "escalations": 2
+  }
+}

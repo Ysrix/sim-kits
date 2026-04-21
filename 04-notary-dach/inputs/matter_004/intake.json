@@ -1,0 +1,17 @@
+{
+  "matter_id": "m_2026_0045",
+  "matter_type_requested": "Erbauseinandersetzung",
+  "language": "DE",
+  "submitted_at": "2026-04-17T14:00:00Z",
+  "deceased_full_name": "Walter Becker",
+  "deceased_date_of_death": "2026-02-11",
+  "deceased_last_address": "Gartenweg 7, 20249 Hamburg, DE",
+  "will_type": "notarial",
+  "heirs": [
+    {"name": "Thomas Becker", "relation": "son", "id_type": "Personalausweis"}
+  ],
+  "estate_summary_eur": 380000,
+  "known_liabilities_eur": 45000,
+  "expected_outcome": "halt",
+  "expected_reason": "Dual signal: (1) ID validation_confidence 0.94 is below 0.95 threshold — triggers flag independently. (2) ID holder name 'Thomas Bäcker' does not match intake heir name 'Thomas Becker' (ä vs. e). Either signal alone halts processing."
+}

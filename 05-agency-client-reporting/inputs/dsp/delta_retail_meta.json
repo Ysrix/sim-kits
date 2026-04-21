@@ -1,0 +1,17 @@
+{
+  "client_id": "delta_retail",
+  "channel": "meta",
+  "period": "2026-04",
+  "totals": {
+    "spend": 14000,
+    "revenue": 48000,
+    "new_customers": 165,
+    "impressions": 2600000,
+    "clicks": 34000
+  },
+  "days": 30,
+  "campaigns": [
+    {"name": "Advantage+ Shopping", "spend": 9000, "revenue": 32000},
+    {"name": "Prospecting - Video", "spend": 5000, "revenue": 16000}
+  ]
+}

@@ -1,0 +1,10 @@
+sku,name,spec,family,unit_cost,list_price,margin_floor_pct
+HOSE-HYD-12-50,"Hydraulic Hose 1/2in x 50ft","SAE 100R2AT, 5000 psi",hose,42.00,72.00,0.30
+HOSE-HYD-34-50,"Hydraulic Hose 3/4in x 50ft","SAE 100R2AT, 4000 psi",hose,68.00,118.00,0.30
+FIT-JIC-8,"JIC Fitting 1/2in","37 deg flare, SS",fittings,4.20,7.50,0.35
+FIT-JIC-12,"JIC Fitting 3/4in","37 deg flare, SS",fittings,6.80,11.90,0.35
+PUMP-GEAR-10,"Gear Pump 10 GPM","Cast iron, 2000 psi",pumps,340.00,595.00,0.25
+PUMP-GEAR-25,"Gear Pump 25 GPM","Cast iron, 2000 psi",pumps,580.00,1020.00,0.25
+CYL-HYD-2-8,"Hydraulic Cylinder 2in x 8in","3000 psi, double-acting",cylinders,185.00,325.00,0.25
+CYL-HYD-3-10,"Hydraulic Cylinder 3in x 10in","3000 psi, double-acting",cylinders,295.00,520.00,0.25
+FLT-HYD-10MIC,"Hydraulic Filter 10 micron","Spin-on, 25 GPM rated",filters,28.00,48.50,0.30

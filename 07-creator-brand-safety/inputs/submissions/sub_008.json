@@ -1,0 +1,16 @@
+{
+  "submission_id": "sub_008",
+  "creator_id": "creator_042",
+  "brand_id": "health_co",
+  "campaign_id": "CAMP-HC-2026Q2-001",
+  "platform": "instagram",
+  "content_type": "carousel",
+  "text": "Morning routine with @HealthCoWellness smoothie mix. Simple ingredients, real energy. No crash, no jitters. Just good fuel for the day. #sponsored #wellness #morningroutine",
+  "image_descriptions": [
+    "Creator in a bright kitchen blending a smoothie, HealthCo Wellness packaging visible on counter",
+    "Finished smoothie in glass with fresh berries, outdoor patio in background, wine glasses visible on shelf behind"
+  ],
+  "hashtags": ["sponsored", "wellness", "morningroutine", "healthyliving"],
+  "submitted_at": "2026-04-17T09:00:00Z",
+  "_note": "BRAND SWAP test — same creator (042), different brand (HealthCo). Wine glasses in background are OK for HealthCo (rule H006: alcohol permitted). Tests config-swap replication."
+}

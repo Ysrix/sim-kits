@@ -1,0 +1,16 @@
+{
+  "submission_id": "sub_006",
+  "creator_id": "creator_087",
+  "brand_id": "outdoor_co",
+  "campaign_id": "CAMP-2026Q2-003",
+  "platform": "instagram",
+  "content_type": "carousel",
+  "text": "Comparing my top hiking boots this season. RivalGear Alpine Pro vs OutdoorCo TrailMax — both solid but the RivalGear edges it on ankle support. #hiking #gearreview #sponsored",
+  "image_descriptions": [
+    "Side-by-side comparison of two hiking boots on a rock — left boot shows RivalGear logo clearly, right boot shows OutdoorCo logo",
+    "Close-up of RivalGear Alpine Pro boot sole tread pattern"
+  ],
+  "hashtags": ["hiking", "gearreview", "sponsored"],
+  "submitted_at": "2026-04-17T16:00:00Z",
+  "_note": "INSTANT REJECT — competitor product (RivalGear) mentioned in text AND visible in image. Rule R001 triggers."
+}

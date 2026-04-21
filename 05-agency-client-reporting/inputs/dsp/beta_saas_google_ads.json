@@ -1,0 +1,17 @@
+{
+  "client_id": "beta_saas",
+  "channel": "google_ads",
+  "period": "2026-04",
+  "totals": {
+    "spend": 28000,
+    "new_customers": 42,
+    "impressions": 820000,
+    "clicks": 12000
+  },
+  "days": 30,
+  "campaigns": [
+    {"name": "Brand Search", "spend": 5000, "new_customers": 18},
+    {"name": "Competitor Search", "spend": 11000, "new_customers": 12},
+    {"name": "Demand Gen", "spend": 12000, "new_customers": 12}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "submission_id": "sub_004",
+  "creator_id": "creator_042",
+  "brand_id": "outdoor_co",
+  "campaign_id": "CAMP-2026Q2-003",
+  "platform": "instagram",
+  "content_type": "carousel",
+  "text": "Post-hike vibes at the campsite. Cold trail, warm fire, good company. OutdoorCo jacket kept me dry all day. #sponsored #camping #traillife",
+  "image_descriptions": [
+    "Creator sitting by campfire wearing OutdoorCo jacket, laughing with friends",
+    "Close-up of campsite table — OutdoorCo water bottle, map, and two craft beer cans visible in foreground"
+  ],
+  "hashtags": ["sponsored", "camping", "traillife"],
+  "submitted_at": "2026-04-17T14:00:00Z",
+  "_note": "FLAG — alcohol visible in image (craft beer cans in frame). Rule R002 triggers flag_for_review."
+}

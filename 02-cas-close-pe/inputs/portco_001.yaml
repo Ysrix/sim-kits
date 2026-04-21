@@ -1,0 +1,21 @@
+portco_id: portco_001
+name: "Acme Manufacturing"
+gl: "QBO"
+chart_of_accounts: "inputs/portco_001_coa.csv"
+known_vendors: "inputs/portco_001_vendors.csv"
+approval_rules:
+  - name: auto_approve_small_known
+    condition: "amount < 1000 AND vendor_is_known"
+    action: "auto_approve"
+  - name: controller_mid
+    condition: "amount >= 1000 AND amount < 10000"
+    action: "route.controller"
+  - name: cfo_large
+    condition: "amount >= 10000"
+    action: "route.cfo"
+  - name: new_vendor_any_amount
+    condition: "NOT vendor_is_known"
+    action: "flag.human_review"
+thresholds:
+  confidence_min: 0.85
+  new_vendor_lookback_days: 180

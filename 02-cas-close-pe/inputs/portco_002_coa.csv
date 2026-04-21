@@ -1,0 +1,18 @@
+code,name,type
+10-100,Operating Cash,Asset
+10-200,AR,Asset
+20-100,AP,Liability
+30-100,Equity,Equity
+40-100,Service Revenue,Revenue
+50-100,Contractor Costs,Expense
+50-200,Direct Labor,Expense
+60-100,Payroll,Expense
+60-200,Rent & Facilities,Expense
+60-300,Telecom,Expense
+60-400,Software,Expense
+60-500,Legal & Accounting,Expense
+60-600,Insurance,Expense
+60-700,Marketing,Expense
+60-800,T&E,Expense
+60-900,Office,Expense
+70-100,Equipment,Asset

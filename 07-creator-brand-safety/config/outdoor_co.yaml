@@ -1,0 +1,54 @@
+brand_id: outdoor_co
+brand_name: "OutdoorCo"
+
+severity_tiers:
+  instant_reject:
+    - hate_speech
+    - explicit_sexual
+    - illegal_activity
+    - competitor_mention
+  flag_for_review:
+    - alcohol_visible
+    - political_content
+    - profanity_mild
+    - controversial_topic
+  acceptable:
+    - outdoor_activity
+    - fitness
+    - family_content
+    - travel
+
+thresholds:
+  min_approve_score: 0.85
+  auto_reject_below: 0.30
+  flag_band: [0.30, 0.85]
+
+creator_history:
+  violation_lookback_days: 180
+  max_violations_before_block: 2
+
+audience:
+  min_brand_affinity_pct: 40
+  max_bot_pct: 15
+
+rules:
+  - id: R001
+    name: "No competitor products"
+    type: text_and_image
+    keywords: ["CompetitorA", "RivalGear", "SummitBrand"]
+    severity: instant_reject
+  - id: R002
+    name: "No alcohol in primary frame"
+    type: image
+    signal: alcohol_visible
+    severity: flag_for_review
+  - id: R003
+    name: "Brand tone alignment"
+    type: text
+    description: "Content tone must align with outdoors/adventure/family-friendly positioning"
+    severity: flag_for_review
+  - id: R004
+    name: "Audience quality"
+    type: profile
+    check: "bot_pct <= max_bot_pct AND brand_affinity_pct >= min_brand_affinity_pct"
+    severity: flag_for_review

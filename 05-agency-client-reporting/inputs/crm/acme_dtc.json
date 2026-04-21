@@ -1,0 +1,10 @@
+{
+  "client_id": "acme_dtc",
+  "period": "2026-04",
+  "totals": {
+    "pipeline_created_usd": 0,
+    "deals_won": 825,
+    "revenue_attributed_usd": 269000
+  },
+  "notes": "B2C — uses deals_won + revenue rather than pipeline"
+}

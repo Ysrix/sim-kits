@@ -1,0 +1,16 @@
+{
+  "FL-SS316-4-150": {"on_hand": 180, "on_order": 0, "lead_time_days": 7},
+  "FL-SS316-6-150": {"on_hand": 42, "on_order": 60, "lead_time_days": 10},
+  "FL-CS-4-150": {"on_hand": 320, "on_order": 0, "lead_time_days": 5},
+  "VV-BALL-2-SS": {"on_hand": 28, "on_order": 40, "lead_time_days": 14},
+  "VV-BALL-4-SS": {"on_hand": 6, "on_order": 12, "lead_time_days": 21},
+  "VV-GATE-2-CS": {"on_hand": 44, "on_order": 0, "lead_time_days": 7},
+  "PP-SS316-2-40": {"on_hand": 95, "on_order": 0, "lead_time_days": 7},
+  "PP-SS316-4-40": {"on_hand": 18, "on_order": 30, "lead_time_days": 14},
+  "FT-ELB-SS-2": {"on_hand": 220, "on_order": 0, "lead_time_days": 5},
+  "FT-TEE-SS-2": {"on_hand": 180, "on_order": 0, "lead_time_days": 5},
+  "GSK-SPW-4-150": {"on_hand": 500, "on_order": 0, "lead_time_days": 3},
+  "GSK-SPW-6-150": {"on_hand": 240, "on_order": 0, "lead_time_days": 3},
+  "BLT-ASTM-A193-B7-1-4X6": {"on_hand": 1200, "on_order": 0, "lead_time_days": 3},
+  "BLT-ASTM-A193-B7-3-4X4": {"on_hand": 2400, "on_order": 0, "lead_time_days": 3}
+}

@@ -1,0 +1,11 @@
+{
+  "doc_type": "Personalausweis",
+  "holder_name": "Thomas Bäcker",
+  "dob": "1978-04-19",
+  "id_number": "L02Y11U33",
+  "issued_by": "Stadt Hamburg",
+  "issue_date": "2021-05-20",
+  "expiry_date": "2031-05-20",
+  "validation_confidence": 0.94,
+  "note_for_demo": "Holder name 'Thomas Bäcker' does NOT match intake heir name 'Thomas Becker'. Agent should flag."
+}

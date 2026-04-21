@@ -1,0 +1,17 @@
+{
+  "client_id": "acme_dtc",
+  "channel": "meta",
+  "period": "2026-04",
+  "totals": {
+    "spend": 28000,
+    "revenue": 96000,
+    "new_customers": 310,
+    "impressions": 4800000,
+    "clicks": 62000
+  },
+  "days": 30,
+  "campaigns": [
+    {"name": "Advantage+ Shopping", "spend": 18000, "revenue": 66000},
+    {"name": "Prospecting - Video", "spend": 10000, "revenue": 30000}
+  ]
+}

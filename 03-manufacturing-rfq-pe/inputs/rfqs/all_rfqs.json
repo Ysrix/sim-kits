@@ -1,0 +1,108 @@
+[
+  {
+    "rfq_id": "rfq_001",
+    "portco_id": "portco_001",
+    "customer": "Acme Industries",
+    "received_at": "2026-04-15T09:12:00Z",
+    "line_items": [
+      {"requested_part": "SS 316 flange 4in 150#", "quantity": 50, "needed_by": "2026-05-15"}
+    ],
+    "shipping_to": "Houston, TX"
+  },
+  {
+    "rfq_id": "rfq_002",
+    "portco_id": "portco_001",
+    "customer": "Continental Refining",
+    "received_at": "2026-04-15T10:30:00Z",
+    "line_items": [
+      {"requested_part": "Spiral wound gasket 4in 150 SS316/graphite", "quantity": 200, "needed_by": "2026-04-25"},
+      {"requested_part": "Stud bolts 1-1/4 x 6 B7 with 2H nuts", "quantity": 400, "needed_by": "2026-04-25"}
+    ],
+    "shipping_to": "Baytown, TX"
+  },
+  {
+    "rfq_id": "rfq_003",
+    "portco_id": "portco_001",
+    "customer": "Gulf Coast Pipe & Supply",
+    "received_at": "2026-04-15T11:45:00Z",
+    "line_items": [
+      {"requested_part": "SS 316 pipe 2in sch 40", "quantity": 30, "needed_by": "2026-05-01"}
+    ],
+    "shipping_to": "Corpus Christi, TX"
+  },
+  {
+    "rfq_id": "rfq_004",
+    "portco_id": "portco_001",
+    "customer": "Brookstone Engineering",
+    "received_at": "2026-04-15T13:00:00Z",
+    "line_items": [
+      {"requested_part": "Ball valve 4in SS full port", "quantity": 40, "needed_by": "2026-06-01"},
+      {"requested_part": "Ball valve 2in SS full port", "quantity": 60, "needed_by": "2026-06-01"}
+    ],
+    "shipping_to": "Beaumont, TX"
+  },
+  {
+    "rfq_id": "rfq_005",
+    "portco_id": "portco_001",
+    "customer": "Pemex Services USA",
+    "received_at": "2026-04-15T14:15:00Z",
+    "line_items": [
+      {"requested_part": "Hastelloy C-276 custom machined housing, 6in bore, ASME Sec VIII", "quantity": 4, "needed_by": "2026-07-01", "notes": "Non-standard, engineering review needed"}
+    ],
+    "shipping_to": "Veracruz, MX"
+  },
+  {
+    "rfq_id": "rfq_006",
+    "portco_id": "portco_001",
+    "customer": "NewWave Refining LLC",
+    "received_at": "2026-04-15T15:22:00Z",
+    "line_items": [
+      {"requested_part": "SS 316 flange 6in 150#", "quantity": 20, "needed_by": "2026-05-10"}
+    ],
+    "shipping_to": "Port Arthur, TX"
+  },
+  {
+    "rfq_id": "rfq_007",
+    "portco_id": "portco_001",
+    "customer": "Acme Industries",
+    "received_at": "2026-04-15T16:00:00Z",
+    "line_items": [
+      {"requested_part": "Elbow SS 2in 90 degree SW", "quantity": 80, "needed_by": "2026-04-30"},
+      {"requested_part": "Tee SS 2in equal", "quantity": 40, "needed_by": "2026-04-30"}
+    ],
+    "shipping_to": "Houston, TX"
+  },
+  {
+    "rfq_id": "rfq_008",
+    "portco_id": "portco_001",
+    "customer": "Continental Refining",
+    "received_at": "2026-04-15T17:10:00Z",
+    "line_items": [
+      {"requested_part": "Gate valve 2in CS OS&Y 150#", "quantity": 25, "needed_by": "2026-05-05"},
+      {"requested_part": "CS flange 4in 150#", "quantity": 100, "needed_by": "2026-05-05"}
+    ],
+    "shipping_to": "Baytown, TX"
+  },
+  {
+    "rfq_id": "rfq_009",
+    "portco_id": "portco_002",
+    "customer": "Heartland Ag Services",
+    "received_at": "2026-04-16T08:00:00Z",
+    "line_items": [
+      {"requested_part": "Hydraulic hose 1/2in 50ft SAE 100R2AT", "quantity": 20, "needed_by": "2026-04-25"},
+      {"requested_part": "JIC fitting 1/2in 37 degree flare", "quantity": 100, "needed_by": "2026-04-25"}
+    ],
+    "shipping_to": "Des Moines, IA"
+  },
+  {
+    "rfq_id": "rfq_010",
+    "portco_id": "portco_002",
+    "customer": "Midwest Mining Corp",
+    "received_at": "2026-04-16T09:30:00Z",
+    "line_items": [
+      {"requested_part": "Gear pump 25 GPM, 2000 psi", "quantity": 8, "needed_by": "2026-05-15"},
+      {"requested_part": "Hydraulic cylinder 3in x 10in double-acting 3000 psi", "quantity": 12, "needed_by": "2026-05-15"}
+    ],
+    "shipping_to": "Duluth, MN"
+  }
+]

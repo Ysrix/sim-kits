@@ -1,0 +1,18 @@
+{
+  "client_id": "acme_dtc",
+  "channel": "google_ads",
+  "period": "2026-04",
+  "totals": {
+    "spend": 42000,
+    "revenue": 152000,
+    "new_customers": 420,
+    "impressions": 2400000,
+    "clicks": 48000
+  },
+  "days": 30,
+  "campaigns": [
+    {"name": "Brand Search", "spend": 8000, "revenue": 48000},
+    {"name": "Shopping - Core", "spend": 22000, "revenue": 78000},
+    {"name": "Performance Max", "spend": 12000, "revenue": 26000}
+  ]
+}

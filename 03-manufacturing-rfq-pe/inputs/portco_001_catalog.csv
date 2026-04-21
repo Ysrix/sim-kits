@@ -1,0 +1,15 @@
+sku,name,spec,family,unit_cost,list_price,margin_floor_pct
+FL-SS316-4-150,"SS-316 Flange 4in 150#","ASME B16.5 RF, SS 316L",flanges,32.80,48.20,0.25
+FL-SS316-6-150,"SS-316 Flange 6in 150#","ASME B16.5 RF, SS 316L",flanges,58.40,86.50,0.25
+FL-CS-4-150,"CS Flange 4in 150#","ASME B16.5 RF, A105",flanges,14.20,22.80,0.20
+VV-BALL-2-SS,"Ball Valve 2in SS","Full port, 316 body, 1000 WOG",valves,82.10,129.00,0.25
+VV-BALL-4-SS,"Ball Valve 4in SS","Full port, 316 body, 600 WOG",valves,218.40,342.00,0.25
+VV-GATE-2-CS,"Gate Valve 2in CS","OS&Y, A216 WCB, 150#",valves,62.00,98.50,0.25
+PP-SS316-2-40,"SS-316 Pipe 2in Sch 40","SA-312 TP316L, 21ft length",pipe,48.70,72.00,0.20
+PP-SS316-4-40,"SS-316 Pipe 4in Sch 40","SA-312 TP316L, 21ft length",pipe,112.00,168.00,0.20
+FT-ELB-SS-2,"SS Elbow 2in 90deg","SS 316, SW, A182 F316L",fittings,18.20,28.50,0.25
+FT-TEE-SS-2,"SS Tee 2in","SS 316, equal tee, A182 F316L",fittings,24.60,38.40,0.25
+GSK-SPW-4-150,"Spiral Wound Gasket 4in 150#","SS316/Graphite, CGI style",gaskets,12.40,19.80,0.30
+GSK-SPW-6-150,"Spiral Wound Gasket 6in 150#","SS316/Graphite, CGI style",gaskets,18.80,29.50,0.30
+BLT-ASTM-A193-B7-1-4X6,"Stud Bolt 1-1/4 x 6 B7","ASTM A193 B7, 2H nuts included",fasteners,4.20,6.80,0.30
+BLT-ASTM-A193-B7-3-4X4,"Stud Bolt 3/4 x 4 B7","ASTM A193 B7, 2H nuts included",fasteners,1.80,2.95,0.30

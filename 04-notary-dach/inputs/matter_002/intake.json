@@ -1,0 +1,16 @@
+{
+  "matter_id": "m_2026_0043",
+  "matter_type_requested": "GmbH-Gründung",
+  "language": "DE",
+  "submitted_at": "2026-04-17T10:30:00Z",
+  "company_name": "Weber & Partner Consulting GmbH",
+  "registered_seat": "München",
+  "business_purpose": "IT-Beratung und Softwareentwicklung",
+  "share_capital_eur": 25000,
+  "managing_director_name": "Sabine Weber",
+  "managing_director_id_type": "Personalausweis",
+  "shareholder_breakdown": null,
+  "notary_office": "Notariat Dr. Schmidt",
+  "expected_outcome": "flag_human",
+  "expected_reason": "shareholder_breakdown missing — required field"
+}

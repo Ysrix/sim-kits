@@ -1,0 +1,7 @@
+portco_id: portco_001
+name: "Platform Industrial Co"
+erp: "SAP"
+catalog_path: "inputs/portco_001_catalog.csv"
+inventory_path: "inputs/portco_001_inventory.json"
+customers_path: "inputs/portco_001_customers.csv"
+pricing_path: "inputs/portco_001_pricing.yaml"

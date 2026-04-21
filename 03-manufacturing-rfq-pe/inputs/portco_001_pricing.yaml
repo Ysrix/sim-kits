@@ -1,0 +1,22 @@
+tiers:
+  tier_1:
+    base_discount_pct: 0.15
+    volume_breaks:
+      - {min_qty: 100, extra_discount_pct: 0.05}
+      - {min_qty: 500, extra_discount_pct: 0.10}
+  tier_2:
+    base_discount_pct: 0.08
+    volume_breaks:
+      - {min_qty: 50, extra_discount_pct: 0.03}
+      - {min_qty: 200, extra_discount_pct: 0.06}
+  tier_3:
+    base_discount_pct: 0.03
+    volume_breaks:
+      - {min_qty: 100, extra_discount_pct: 0.02}
+
+auto_draft_threshold_usd: 10000
+approval:
+  gm_required_above_usd: 25000
+  sales_mgr_required_above_usd: 10000
+
+rush_lead_time_uplift_pct: 0.10  # adds 10% if customer needs-by < standard lead time

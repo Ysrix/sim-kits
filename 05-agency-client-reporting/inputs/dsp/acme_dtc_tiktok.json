@@ -1,0 +1,16 @@
+{
+  "client_id": "acme_dtc",
+  "channel": "tiktok",
+  "period": "2026-04",
+  "totals": {
+    "spend": 8000,
+    "revenue": 21000,
+    "new_customers": 95,
+    "impressions": 1900000,
+    "clicks": 28000
+  },
+  "days": 30,
+  "campaigns": [
+    {"name": "Prospecting", "spend": 8000, "revenue": 21000}
+  ]
+}

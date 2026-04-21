@@ -1,0 +1,39 @@
+{
+  "confidence_threshold": 0.80,
+  "escalation_triggers": [
+    {
+      "rule": "third_party_trademark",
+      "description": "Any use of a third-party trademark in ad copy or imagery",
+      "action": "flag_for_human"
+    },
+    {
+      "rule": "pricing_claims",
+      "description": "Any claim about pricing that lacks date and disclaimer",
+      "action": "flag_for_human"
+    },
+    {
+      "rule": "health_safety_claims",
+      "description": "Any claim about health or safety under any condition",
+      "action": "flag_for_human"
+    },
+    {
+      "rule": "unapproved_faces",
+      "description": "Any image with a person's face not on the pre-approved model list",
+      "action": "flag_for_human"
+    },
+    {
+      "rule": "competitor_reference",
+      "description": "Any competitor logos, products, or trademarks visible in imagery or copy",
+      "action": "flag_for_human"
+    },
+    {
+      "rule": "low_confidence",
+      "description": "Agent confidence score below the confidence_threshold",
+      "action": "flag_for_human"
+    }
+  ],
+  "blocker_severity_auto_escalate": true,
+  "max_auto_approve_spend_usd": 10000,
+  "require_human_sign_off_for": ["reject"],
+  "audit_all_decisions": true
+}

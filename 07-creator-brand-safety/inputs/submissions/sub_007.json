@@ -1,0 +1,16 @@
+{
+  "submission_id": "sub_007",
+  "creator_id": "creator_156",
+  "brand_id": "outdoor_co",
+  "campaign_id": "CAMP-2026Q2-003",
+  "platform": "tiktok",
+  "content_type": "video",
+  "text": "Rain hike in the Pacific Northwest. OutdoorCo rain shell kept everything dry — even in sideways rain. Would buy again. #sponsored #rainhike #PNW",
+  "image_descriptions": [
+    "Creator hiking in heavy rain on a forest trail, wearing bright yellow OutdoorCo rain jacket",
+    "Creator at viewpoint overlooking foggy valley, rain jacket hood up, smiling"
+  ],
+  "hashtags": ["sponsored", "rainhike", "PNW", "outdoors"],
+  "submitted_at": "2026-04-17T17:00:00Z",
+  "_note": "FLAG — content is clean (score ~0.88) but creator_156 has 1 prior violation within 180-day lookback. Creator history override triggers flag_for_review."
+}

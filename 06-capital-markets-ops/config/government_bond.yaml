@@ -1,0 +1,19 @@
+product_type: government_bond
+tolerances:
+  price:
+    type: absolute
+    value: 0.0625         # 6.25 bps — tighter than corporates
+  notional:
+    type: percentage
+    value: 0.0005          # 0.05% — tighter for govies
+  settle_date:
+    type: days
+    value: 0               # exact match required (T+1 for US Treasuries)
+match_keys:
+  - trade_date
+  - cusip
+  - counterparty
+  - direction
+escalation:
+  notional_threshold: 10000000    # higher threshold for govies (larger avg trade size)
+  auto_classify_below: 2000000

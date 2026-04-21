@@ -1,0 +1,23 @@
+code,name,type
+1000,Cash - Operating,Asset
+1100,Accounts Receivable,Asset
+1200,Inventory,Asset
+2000,Accounts Payable,Liability
+2100,Accrued Expenses,Liability
+3000,Owner Equity,Equity
+4000,Revenue - Products,Revenue
+4100,Revenue - Services,Revenue
+5000,COGS - Materials,Expense
+5100,COGS - Labor,Expense
+6000,Salaries & Wages,Expense
+6100,Rent,Expense
+6200,Office Supplies,Expense
+6300,Software & Subscriptions,Expense
+6400,Professional Fees,Expense
+6500,Utilities,Expense
+6600,Insurance,Expense
+6700,Marketing,Expense
+6800,Travel & Meals,Expense
+6900,Shipping & Freight,Expense
+7000,Equipment,Asset
+7100,Depreciation,Expense

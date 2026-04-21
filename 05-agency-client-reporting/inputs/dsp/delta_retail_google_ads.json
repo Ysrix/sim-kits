@@ -1,0 +1,18 @@
+{
+  "client_id": "delta_retail",
+  "channel": "google_ads",
+  "period": "2026-04",
+  "totals": {
+    "spend": 21000,
+    "revenue": 72000,
+    "new_customers": 245,
+    "impressions": 1400000,
+    "clicks": 32000
+  },
+  "days": 30,
+  "campaigns": [
+    {"name": "Brand Search", "spend": 4500, "revenue": 22000},
+    {"name": "Shopping - Core", "spend": 11000, "revenue": 38000},
+    {"name": "Performance Max", "spend": 5500, "revenue": 12000}
+  ]
+}

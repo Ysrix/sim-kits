@@ -1,0 +1,7 @@
+portco_id: portco_002
+name: "Bolt-on Hydraulics Inc"
+erp: "NetSuite"
+catalog_path: "inputs/portco_002_catalog.csv"
+inventory_path: "inputs/portco_002_inventory.json"
+customers_path: "inputs/portco_002_customers.csv"
+pricing_path: "inputs/portco_002_pricing.yaml"

@@ -1,0 +1,19 @@
+client_id: acme_dtc
+client_name: "Acme DTC"
+period: "2026-04"
+kpis:
+  - name: ROAS
+    formula: "revenue / spend"
+    target: 3.5
+    anomaly_threshold_pct: 0.15
+  - name: CAC
+    formula: "spend / new_customers"
+    target: 45
+    anomaly_threshold_pct: 0.20
+  - name: spend
+    anomaly_threshold_pct: 0.30
+channels:
+  - google_ads
+  - meta
+  - tiktok
+template: "template_standard_v1.md"

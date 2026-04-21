@@ -1,0 +1,19 @@
+product_type: corporate_bond
+tolerances:
+  price:
+    type: absolute
+    value: 0.125         # 12.5 bps
+  notional:
+    type: percentage
+    value: 0.001          # 0.1%
+  settle_date:
+    type: days
+    value: 0              # exact match required
+match_keys:
+  - trade_date
+  - cusip
+  - counterparty
+  - direction
+escalation:
+  notional_threshold: 5000000
+  auto_classify_below: 1000000

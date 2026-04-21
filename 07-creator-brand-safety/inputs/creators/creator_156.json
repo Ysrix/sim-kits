@@ -1,0 +1,22 @@
+{
+  "creator_id": "creator_156",
+  "handle": "@pnw_rain_or_shine",
+  "platform": "tiktok",
+  "followers": 95000,
+  "audience_demo": {
+    "age_18_34_pct": 68,
+    "brand_affinity_pct": 52,
+    "bot_pct": 7
+  },
+  "recent_posts_summary": "Pacific Northwest hiking, rain gear reviews, moody landscape photography. Generally clean content.",
+  "violation_history": [
+    {
+      "date": "2026-02-10",
+      "brand_id": "outdoor_co",
+      "reason": "Unintentional competitor product visible in background of video review",
+      "severity": "flag_for_review",
+      "resolved": true
+    }
+  ],
+  "past_brand_partners": ["OutdoorCo", "Patagonia"]
+}
